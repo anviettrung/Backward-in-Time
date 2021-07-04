@@ -48,6 +48,7 @@ public class PlayerController :  MonoBehaviour, PlayerControls.IPlayerActions
 	{
 		if (context.started)
 		{
+			Debug.Log("ab1");
 			onAbility1.Invoke();
 		}
 	}
@@ -56,6 +57,7 @@ public class PlayerController :  MonoBehaviour, PlayerControls.IPlayerActions
 	{
 		if (context.started)
 		{
+			Debug.Log("ab2");
 			onAbility2.Invoke();
 		}
 	}
